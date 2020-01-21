@@ -17,6 +17,7 @@ public class Deck {
     @Builder.Default private String mapStyle = "mapbox://styles/mapbox/dark-v9";
     private List<Object> effects;
     private ViewState initialViewState;
+    private ViewState viewState;
     private String mapboxKey;
     private String description;
 

@@ -17,7 +17,7 @@ import {readPixelsToArray} from '@luma.gl/webgl';
 
 import JSON_TEMPLATES from '../json-examples';
 
-const INITIAL_TEMPLATE = Object.keys(JSON_TEMPLATES)[0];
+const INITIAL_TEMPLATE = Object.keys(JSON_TEMPLATES)[11]; // US states map
 
 // Set your mapbox token here
 const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line

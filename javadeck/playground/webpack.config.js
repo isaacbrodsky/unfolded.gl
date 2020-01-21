@@ -4,7 +4,6 @@
 
 const {resolve} = require('path');
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const CONFIG = {
   mode: 'development',
@@ -41,4 +40,5 @@ const CONFIG = {
 };
 
 // This line enables bundling against src in this repo rather than installed deck.gl module
-module.exports = env => (env ? require('../webpack.config.local')(CONFIG, __dirname)(env) : CONFIG);
+//module.exports = env => (env ? require('../webpack.config.local')(CONFIG, __dirname)(env) : CONFIG);
+module.exports = CONFIG;
